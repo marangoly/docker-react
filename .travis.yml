@@ -10,7 +10,7 @@ script:
   - docker run -e CI=true marangoly/docker-react npm run test
 
 deploy:
-  provoider: elasicbeanstalk
+  provoider: elasticbeanstalk
   region: "eu-west-1"
   app: "docker-react"
   env: "Dockerreact-env"
